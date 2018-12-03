@@ -1,3 +1,4 @@
+
 //Java数组章节练习题
 public class ArrayUtils{
      public static void main(String[] args){
@@ -66,7 +67,7 @@ public class ArrayUtils{
    // A {1,3,5,7,9} B {2,4,6,8,10} -> {1,3,5,7,9,2,4,6,8,10}
     public static int[] arrayJoin(int[] a, int[] b){
         //TODO
-        int [] data3 = new int [10];
+        int [] data3 = new int [a.length + b.length];
         int i = 0;
         while(i<5){
             data3[i] = a[i];
