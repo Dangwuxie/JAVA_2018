@@ -2,7 +2,6 @@ abstract class Person{
     public abstract void test1();
     abstract class Inner{
         public abstract void test2();
-    }
 }
 class Student extends Person{
     public void test1(){
